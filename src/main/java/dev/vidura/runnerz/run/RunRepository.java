@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @Repository
 public class RunRepository {
-    private List<Run> runs = new ArrayList<>();
+    private final List<Run> runs = new ArrayList<>();
 
     List<Run> getAllRuns() {
         return runs;
